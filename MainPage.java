@@ -18,7 +18,7 @@ public class MainPage
 			if(validPassword==true)
 			{
 				CabTypes.cabTypes(); 
-				System.out.println("Please enter you want which type of Cab");
+				System.out.println("Please enter you want which type of Cab(enter the name of the cab)");
 				String cabType = sc.next(); //Get the cab type from the user
 				Boolean validCab=CabDetails.validateCabDetails(cabType);
 				if(validCab==true)
